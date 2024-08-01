@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Outfit;
+}
+body{
+    background:#dadada;
+}
+a{
+    color:inherit;
+}
+nav{
+    display: flex;
+    align-items: "center";
+    justify-content: space-between;
+    color: #fff;
+    background-color: black;
+}
+.nav-country{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 12px;
+    padding-bottom:5px ;
+}
+.nav-country h3{
+    font-size: 15px;
+}
+.nav-search{
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: grey;
+    border-radius: 4px;
+    max-width:1000px;
+    max-height: 45px;
+    margin-top: 7px; 
+    margin-left: 15px;
+
+}
+.nav-search-gategory{
+    display:flex;
+    background-color: #dadada;
+    padding: 10px 20px;
+    gap:5px;
+    align-items: center;
+    border-radius: 4px 0 0 4px;
+    height:45px; 
+}
+.nav-search-gategory p{
+    font-size: 13px;
+}
+.nav-search-input{
+    padding-left:20px;
+    width: 100%;
+    border: none;
+    outline: none;
+
+}
+.nav-search-icon{
+    max-width: 45px;
+    padding:8px;
+    border-radius: 0 4px 4px 0;
+    background-color: #ffd647;
+}
+.nav-dropdown-country{
+    gap:1px;
+    display: flex;
+    align-items: center;
+    margin-left:15px;
+}
+.uk-flag{
+    max-height:30px;
+    max-width: 30px;
+    padding-left: 5px;
+}
+.down-flag{
+    padding-right: 2px;
+    max-height:30px;
+    max-width: 25px;
+
+}
+.nav-account{
+    /* margin-left: 15px; */
+    padding: 7px;
+}
+.nav-account p{
+    font-size: 13px;
+    /* line-height: 1; */
+}
+.nav-account h3{
+    font-size: 15px;
+    /* line-height: 1; */
+}
+.nav-return-order{
+    margin-top: 5px;
+    padding: 6px;
+}
+.nav-return-order p{
+    font-size: 13px;
+}
+.nav-return-order h3{
+    font-size: 15px;
+    line-height: 2;
+}
+.nav-cart{
+    padding: 2px;
+    margin: 4px 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    align-items: center;
+
+}
+.nav-cart h3{
+    font-size: 15px;
+    line-height: 1;
+}
+.nav-bottom{
+    background-color: #232f3e;
+    display: flex;
+    color: white;
+    align-items: center;
+    height: 45px;
+}
+.nav-bottom div{
+    display: flex;
+    align-items: center;
+    gap: 5;
+    padding: 6px;
+    padding-left: 10px;
+}
+.header-slider ul{
+    display: flex;
+    overflow-y:hidden;
+    margin-top: 0px;
+}
+.header-img{
+    max-width: 100%;
+
+    /*to maintain the light shade of white below the images in the header slide we use the concept of masking*/
+    mask-image: linear-gradient(to bottom, #000 50%, transparent );
+}
+.header-slider a{
+    position: absolute;
+    top:25%;
+    z-index: 5;
+    padding:10vh 1vw;
+    background-color: rgb(230, 230, 230);
+    opacity: 0.6;
+    color: grey;
+    text-decoration: none;
+    /* height: 5; */
+    /* align-items: center; */
+    font-weight: 600;
+    font-size: 20px; 
+    cursor: pointer;
+
+}
+.control_prev{
+    left:0;
+}
+.control_next{
+    right: 0;
+}
+.box-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    /* gap:5px; */
+    padding: 15px 20px;
+    background-color: #fff;
+    max-height: 25%;
+    max-width: 24%;
+
+    /*the below two lines margin-top=-20vw mean to align the images of box in such a way that it covers some slides */
+    margin-top: -20vw;
+    z-index: 1;/*the boxs will overlap with the top slides and still it is visible clearly*/
+}
+.box img{
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.box a{
+    text-decoration: none;
+    font-size: 6;
+    color: red;
+}
+.box-row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+.box2{
+    background-color: #fff;
+    padding: 15px 20px;
+    max-height: 25%;
+    max-width: 24%;
+}
+.box2 a{
+    text-decoration: none;
+    font-size: 6;
+    color: red;
+}
+.box2 img{
+    padding-top: 10px;
+    padding-bottom: 7px;
+    max-width: 100%;
+}
+.book-slider{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.products{
+    margin: 25px;
+    display:flex;
+    /* margin-left: 20px; */
+    overflow-x: auto;
+    gap: 25px;
+}
+.book-slider .products::-webkit-scrollbar{
+    display: none;
+
+}
+.above-footer{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-recommed button{
+    display: flex;
+    background-color: #ffd647;
+    padding:5px 120px 5px 120px;
+    border-radius: 5px;
+    
+
+}
+.inner-recommed h6{
+    color: rgb(204, 46, 46);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content:center;
+}
+.back-to-top{
+    background-color: #37475a;
+    color: #fff;
+    display: flex;
+    max-width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+.below-back-to-top{
+    display:flex ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #232f3e;
+    justify-content: center;
+}
+.inner-below{
+    padding-left: 50px;
+    color: #fff;
+}
+.inner-below p{
+    font-size: medium;
+    color: #dadada;
+    line-height: 2;
+}
+.inner-below h4{
+    font-size: large;
+    padding-bottom: 10px;
+}
+footer{
+    justify-content: center;
+    display: flex;
+    background-color: #131A22;
+}
+footer p{
+    color: #dadada;
+    font-size: small;
+    margin: 10px;
+}
