@@ -10,3 +10,11 @@ This repo consist of amazon clone using html, CSS and JavaScript. It is a simple
 
 
 ![Screenshot (195)](https://github.com/user-attachments/assets/06d4145f-1533-49fa-87ef-ea8b5c47d1d1)
+
+
+The below is the full view of the website.
+
+
+https://github.com/user-attachments/assets/a5ca1353-7af5-4c2e-9c40-614d3818a09d
+
+
