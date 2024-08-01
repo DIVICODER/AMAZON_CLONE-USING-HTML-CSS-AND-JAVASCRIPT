@@ -7,3 +7,5 @@ This repo consist of amazon clone using html, CSS and JavaScript. It is a simple
 > It is just a simple amazon clone you can enhance it your further knowledge to it.
 
 
+
+
