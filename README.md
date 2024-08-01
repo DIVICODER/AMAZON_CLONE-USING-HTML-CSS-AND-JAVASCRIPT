@@ -9,3 +9,4 @@ This repo consist of amazon clone using html, CSS and JavaScript. It is a simple
 
 
 
+![Screenshot (195)](https://github.com/user-attachments/assets/06d4145f-1533-49fa-87ef-ea8b5c47d1d1)
